@@ -24,8 +24,8 @@ export function Event(eventData: any) {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Link className="w-full bg-white text-black hover:text-white hover:bg-black" href={`/event/${eventData.data.id}`} passHref>
-          <Button className="w-full border">View Event</Button>
+        <Link className="w-full" href={`/event/${eventData.data.id}`} passHref>
+          <Button className="w-full border bg-white text-black hover:text-white hover:bg-black">View Event</Button>
         </Link>
       </CardFooter>
     </Card>
