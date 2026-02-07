@@ -29,7 +29,7 @@ export default function LoginPage() {
         <span className="text-2xl md:text-3xl text-zinc-600 ml-0 sm:ml-2">Events</span>
       </h1>
       <div className="w-full max-w-sm space-y-6 border border-black p-8 bg-white rounded-xl">
-        <h1 className="text-2xl font-bold text-black text-center">Login</h1>
+        <h1 className="text-2xl bg-white hover:bg-black font-bold text-black hover:text-white text-center">Login</h1>
         <form onSubmit={handleLogin} className="space-y-4 text-black">
           <Input placeholder="Username" className="border-black" onChange={(e) => setUser(e.target.value)} />
           <Input type="password" className="border-black" placeholder="Password" onChange={(e) => setPass(e.target.value)} />
