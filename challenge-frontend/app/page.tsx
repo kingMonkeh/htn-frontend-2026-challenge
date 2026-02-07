@@ -79,7 +79,7 @@ export default function Home() {
             <Button 
               onClick={handleLogout}
               variant="outline" 
-              className="rounded-full px-10 py-4 text-white hover:text-black border-zinc-300 hover:bg-zinc-100"
+              className="rounded-full px-10 py-4 bg-black text-white hover:text-black border-zinc-300 hover:bg-zinc-100"
             >
               Logout
             </Button>

@@ -13,7 +13,7 @@ import {
 
 export function Event(eventData: any) {
   return (
-    <Card className="relative mx-auto border w-full bg-white">
+    <Card className="relative mx-auto border border-black w-full bg-white">
       <CardHeader>
         <CardTitle>{eventData.data.name}</CardTitle>
         <p className="text-sm font-medium text-blue-600 mt-1">
@@ -24,8 +24,8 @@ export function Event(eventData: any) {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Link className="w-full" href={`/event/${eventData.data.id}`} passHref>
-          <Button className="w-full border bg-white text-black hover:text-white hover:bg-black">View Event</Button>
+        <Link className="w-full border" href={`/event/${eventData.data.id}`} passHref>
+          <Button className="w-full bg-white text-black hover:text-white hover:bg-black">View Event</Button>
         </Link>
       </CardFooter>
     </Card>
