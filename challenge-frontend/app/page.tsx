@@ -85,7 +85,7 @@ export default function Home() {
             </Button>
           :
             <Link href="/login" passHref>
-              <Button variant="outline" className="rounded-full px-10 py-4 text-white hover:text-black border-zinc-300 hover:bg-zinc-100">
+              <Button variant="outline" className="bg-black rounded-full px-10 py-4 text-white hover:text-black border-zinc-300 hover:bg-zinc-100">
                 Login
               </Button>
             </Link>
